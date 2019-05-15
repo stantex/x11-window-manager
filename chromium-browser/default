@@ -1,1 +1,1 @@
-CHROMIUM_FLAGS="--no-sandbox --disable-setuid-sandbox --kiosk --start-fullscreen --noerrdialogs --disable-translate --no-first-run --fast --fast-start --disable-infobars --disable-features=TranslateUI --disk-cache-dir=/dev/null https://sps.stantexinc.com"
+CHROMIUM_FLAGS="--no-sandbox --disable-setuid-sandbox --start-fullscreen --noerrdialogs --disable-translate --no-first-run --fast --fast-start --disable-infobars --disable-features=TranslateUI --disk-cache-dir=/dev/null https://sps.stantexinc.com"
