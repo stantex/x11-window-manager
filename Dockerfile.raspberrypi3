@@ -11,7 +11,7 @@ RUN install_packages xserver-xorg \
     matchbox-keyboard \
     # Custom apps
     chromium-browser \
-    cups
+    cups-client
 
 # disable lxpolkit popup warning
 RUN mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak
