@@ -14,4 +14,4 @@ do
 	sleep 30
 done
 
-chromium-browser --no-sandbox --disable-setuid-sandbox
+chromium-browser

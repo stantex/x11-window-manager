@@ -1,0 +1,1 @@
+CHROMIUM_FLAGS="--user-data-dir=/root/chrome-profile/ --no-sandbox --disable-setuid-sandbox"
