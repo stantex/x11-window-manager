@@ -12,7 +12,7 @@ RUN install_packages xserver-xorg \
     # Custom apps
     xterm \
     chromium-browser \
-    cups-client
+    cups
 
 # disable lxpolkit popup warning
 RUN mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak
