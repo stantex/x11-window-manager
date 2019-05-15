@@ -10,6 +10,7 @@ RUN install_packages xserver-xorg \
     gtk2-engines-clearlookspix \
     matchbox-keyboard \
     # Custom apps
+    xterm \
     chromium-browser \
     cups-client
 
