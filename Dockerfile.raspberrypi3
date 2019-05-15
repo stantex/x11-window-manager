@@ -24,7 +24,7 @@ RUN echo "#!/bin/bash" > /etc/X11/xinit/xserverrc \
 # Setting working directory
 WORKDIR /usr/src/app
 
-RUN sysctl -w kernel.unprivileged_userns_clone=1
+# RUN sudo sysctl -w kernel.unprivileged_userns_clone=1
 
 COPY start.sh start.sh
 

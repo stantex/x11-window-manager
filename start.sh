@@ -13,3 +13,5 @@ do
 	echo "startx failed, so we will just wait here while you debug!"
 	sleep 30
 done
+
+chromium-browser --no-sandbox --disable-setuid-sandbox
