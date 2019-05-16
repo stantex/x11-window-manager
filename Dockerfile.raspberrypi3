@@ -29,6 +29,7 @@ WORKDIR /usr/src/app
 COPY start.sh start.sh
 COPY chromium-browser/default /etc/chromium-browser/default
 COPY cups/cupsd.conf /etc/cups/cupsd.conf
+COPY cups/printers.conf /etc/cups/printers.conf
 
 # Adding things to autostart will cause them to be launchd automatically on starup
 COPY autostart /etc/xdg/lxsession/LXDE-pi/autostart
